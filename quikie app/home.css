@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    box-sizing:border-box;
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    background-color:#031C47CC;
+    width: 100%;
+}
+.logo img{
+    height: 50px;
+}
+.content{
+    display: flex;
+    flex-direction: row;  
+    /* justify-content: space-around; */
+    
+}
+ .cart{
+    /* background-color: rgb(228, 189, 130); */
+    background: #0000000A;
+
+    height: 180px;
+    width: 290px;
+    margin :4%;
+    border-color: 4px solid gray;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    border-style: dotted;
+    border-color: gray;
+    /* border: dashed 1px gray; */
+}
+
+.logo-group{
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    display: flex;
+    /* -ms-flex-align: center; */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-content: center;
+    /* justify-content: center ; */
+    /* display: contents; */
+    /* flex: content; */
+}
+.logo-group div{
+    margin-left: 40px;
+    align-content: center;
+    justify-content: center
+}
+.cart-text h2{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    
+}
+.cart-logo img{
+    width: 56px;
+height: 59px;
+margin-left: 60px;
+
+}
+.cart-usd {
+    width: 50%;
+height: 195px;
+
+margin-top: 5%;
+margin-left:33% ;
+}
+.cat-usd h2{
+    justify-content: center;
+    align-items: center;
+}
+.facebook{
+    margin-top: 262px !important;
+}
+
+.table{
+    margin: 4%;
+    border-style: solid;
+  border-width: medium;
+    /* border-style: outset; */
+    /* border-color: 1px solid black; */
+}
+
+.table-title{
+    margin-top: 4%;
+    width: auto;
+    height: 22px;
+    /* align-items: start!important; */
+
+
+}
+
+.table-search{
+    width: 392px;
+height: 40px;
+margin-top: 2%;
+gap: 0px;
+border-radius: 6px;
+background: #F4F2FF;
+display: flex;
+flex-direction:row;
+justify-content: left;
+align-items: center;
+
+
+}
+
+
+.table{
+    width: 90%;
+/* height: auto; */
+background: #FFFFFF;
+/* border: 4px black; */
+border-radius: 6px;
+justify-content: center;
+align-items: center;
+/* border-style: ; */
+  border-color: rgb(224, 232, 232);
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.table-item{
+    width: 100%;
+}
+.label{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.label label {
+    width: 30px;
+    height: 40px;
+    color: #8B83BA;
+    /* margin-left: 2%; */
+    margin-left: 50%;
+    margin-top: 45%;
+    justify-content: center;
+align-items: center;
+
+}
+
+.tbl-symbol{
+    background:#E6E6F2;
+    color: #4A4AFF;
+    width: 100px;
+    /* height: 40px; */
+    border-radius: 50px;
+    text-align: center;
+    padding: 8px;
+}
+.tbl-view{
+    width: 99px;
+/* height: 39px; */
+    border-radius: 6px;
+background: #6D5BD0;
+text-align: center;
+
+
+}
+.tbl-view h1{
+    color: #E6E6F2;
+    font-family: Inter;
+font-size: 16px;
+padding: 8px;
+font-weight: 600;
+/* line-height: 19.36px; */
+/* text-align: left; */
+
+}
+.tbl-save{
+    background: #18A0FB;
+
+    width: 180px;
+    /* height: 39px; */
+    gap: 0px;
+    border-radius: 6px;
+    text-align: center;
+
+    
+}
+.tbl-save h1{
+    
+    color: #E6E6F2;
+    font-family: Inter;
+    font-size: 16px;
+    padding: 8px;
+    font-weight: 600;
+}
+.pagination{
+display: inline-block;
+width: 100%;
+height: 45px;
+background: #F4F2FF;
+
+
+}
+
+.pagination p{
+    justify-content: center;
+    text-align: end;
+    padding: 12px;
+}
+*:focus {
+    outline: none;
+}
+.input{
+    outline: 0;
+}
+
+
+table{
+    width: 100%;
+    height: 8%; 
+}
+
+.main-table {
+    table-layout: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 3%;
+  }
+  
+  .main-table td, .main-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    
+  }
+  .main-table th{
+    background: #F4F2FF;
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------media quiry start from here----------------- */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        width: 100%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;  
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .facebook{
+        margin-top: 0px !important;
+    }
+    .logo {
+        align-items: center;
+    }
+    .table ,.table-title{
+        display:none;
+    }
+    .view-save-data{
+        color: white;
+        background: #6D5BD0;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        margin-left: 20%;
+        border-radius:8px ;
+    }
+    .view-save-data h1{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        /* line-height: 19.36px; */
+        text-align: center;
+        padding: 8%;
+        
+    }
+    
+
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .navbar {
+        width: 100%;
+    }  
+    .logo {
+        align-items: center;
+    }
+    .facebook{
+        margin-top: 0px !important;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;  
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .view-save-data{
+        display: none;
+    }
+
+}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .navbar {
+        width: 100%;
+    }  
+    .logo img{
+        align-items: center;
+    }
+    .content{
+        display: grid;
+        /* grid-row: auto; */
+        /* flex-direction: row;   */
+        justify-content: space-around;
+        
+    }
+    .view-save-data{
+        display: none;
+    }
+} 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .navbar {
+        width: 100%;
+    }  
+    .facebook{
+        margin-top: 150px !important;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;  
+        justify-content: space-around;
+        
+    }
+    .view-save-data{
+        display: none;
+    }
+} 
+  
+ 
+  
